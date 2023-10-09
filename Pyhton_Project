@@ -35,10 +35,10 @@ def delete_task(task_index):
 # Main loop for the To-Do List application
 while True:
     print("\nMenu:")
-    print("1. Add Task")
-    print("2. List Tasks")
-    print("3. Mark Task as Completed")
-    print("4. Delete Task")
+    print("1. Add ")
+    print("2. List")
+    print("3. Mark as Completed")
+    print("4. Delete")
     print("5. Quit")
 
     choice = input("Enter your choice: ")
