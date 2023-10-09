@@ -1,0 +1,25 @@
+#include <iostream>
+
+int main() {
+    int number;
+    long long factorial = 1;
+
+    // Input a positive integer
+    std::cout << "Enter a positive integer: ";
+    std::cin >> number;
+
+    // Check for negative input
+    if (number < 0) {
+        std::cout << "Factorial is undefined for negative numbers." << std::endl;
+    } else {
+        // Calculate the factorial using a for loop
+        for (int i = 1; i <= number; ++i) {
+            factorial *= i;
+        }
+
+        // Output the result
+        std::cout << "Factorial of " << number << " is " << factorial << std::endl;
+    }
+
+    return 0;
+}
